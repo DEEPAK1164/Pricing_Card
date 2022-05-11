@@ -1,0 +1,15 @@
+setTimeout(()=>{
+    document.body.style.backgroundColor='orange';
+    setTimeout(()=>{
+            document.body.style.backgroundColor='golden';
+            setTimeout(()=>{
+                   document.body.style.backgroundColor='white';
+                   setTimeout(()=>{
+                       document.body.style.backgroundColor='sky';
+                       setTimeout(()=>{
+                            document.body.style.backgroundColor='black';
+                        },1000)
+                    },1000)
+                },1000)
+        },1000)
+ },1000)
